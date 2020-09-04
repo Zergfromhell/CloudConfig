@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dadata-service
+server:
+  port: 0
+headers:
+  content-type: application/json
+  first-header:
+    name: Accept
+    value: application/json
+  second-header:
+    name: Authorization
+    value: Token abda59b74a5dd9c83bc31606b7a3f20d6b0fffb1
+url: https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/address
+http-method: POST
+data: query
